@@ -12,7 +12,7 @@ The data containes target varaible - "bad_loans", having values 0 for good loan,
 ![image](screens/01-dataset.png)
 
 I have injested the dataset using TabularDatasetFactory. A snapshot of the data after injestion is provided below.
-![image](screens/002-injest-dataset.png)
+![image](screens/02-injest-dataset.png)
 
 ## AutoML Experiment
 I have used the below automl_config for the experiment. Have set timeout_minutes to 30 minutes and primary meterics as auc_weighted.
